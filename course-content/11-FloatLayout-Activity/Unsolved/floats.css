@@ -12,7 +12,7 @@ body {
 
 header {
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #333;
   background: #ccc;
 }
@@ -21,22 +21,60 @@ section {
 }
 
 #left {
+  float: left;
+  width: 33.3%;
+  height: 50px;
+  padding: 10px;
+  background-color: #666;
+  margin-bottom: 10px;
 }
 
 #middle {
+  float: left;
+  width: 33.3%;
+  height: 50px;
+  padding: 10px;
+  background-color: #888;
+  margin-bottom: 10px;
 }
 
 #right {
+  float: left;
+  width: 33.3%;
+  height: 50px;
+  padding: 10px;
+  background-color: #666;
+  margin-bottom: 10px;
 }
 
 #full {
+  width: 100%;
+  float: right;
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 #division {
+  height: 50px;
+  background-color: #6ea3da
+
 }
 
 aside {
+  float: left;
+  border: transparent;
+  margin-left: 40px;
+  height: 100px;
+  width: 150px;
+  background-color: #fff;
+  margin-top: 10px;
 }
 
 footer {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ccc;
+  height: 50px;
+  clear: both;
 }
