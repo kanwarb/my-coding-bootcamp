@@ -2,7 +2,34 @@
 
 <!DOCTYPE html>
 <html lang="en-us">
+<style>
+  h1 {
+      /* Put a 15-pixel margin at the bottom of the heading. */
+      margin-bottom: 15px;
+      /* Change the size of your font to 60 pixels high. */
+      font-size: 60px;
+      /* This will color the heading font white. */
+      color: white;
+      /* Align the text to the center of its enclosing element (e.g. div). */
+      text-align: center;
+      /* Underline the text. */
+      text-decoration: underline;
+      /* The background of the heading element will now be black. */
+      background-color: black;
+    }
 
+    img {
+      float: left;
+    }
+    #left {
+      float: left;
+      width: 50%;
+    }
+    #right {
+      float: right;
+      width: 50%;
+    }
+</style>
 <head>
   <meta charset="UTF-8">
   <title>CSS Stylesheets with Relative Paths</title>
@@ -15,16 +42,15 @@
 
   <div>
 
-    <section>
+    <section id=left >
 
-      <h2>Your Name</h2>
-
-      <img src="https://placehold.it/200x200" alt="Your Name">
-
+      <h2>Kanwar Batra</h2>
+      <img src="https://placehold.it/200x200" alt="Kanwar Batra">
+     
       <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
     </section>
 
-    <section>
+    <section id=right>
       <h2>Contact Info</h2>
       <ul>
         <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
